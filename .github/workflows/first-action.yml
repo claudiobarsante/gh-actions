@@ -1,0 +1,7 @@
+  name: First workflow
+  #key 'on' = when this workflow will be triggered
+  #workflow_dispatch allows this workflow to be manually triggered
+  on: workflow_dispatch 
+  jobs:
+    first-job:
+      runs-on: ubuntu-latest
